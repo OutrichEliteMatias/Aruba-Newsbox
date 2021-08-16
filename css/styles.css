@@ -1,0 +1,265 @@
+/* Import Google Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+
+
+
+/* Global Styles */
+header ul {
+	padding-left: 0;
+	margin-bottom: 0;
+}
+p, span {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  margin-bottom: 2rem;
+}
+
+#aruba-prelogin p, #aruba-prelogin span {
+	color: #fff;
+}
+h1, h2, h3, h4, h5 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+
+#aruba-prelogin h1, #aruba-prelogin h2, #aruba-prelogin h3, #aruba-prelogin h4, #aruba-prelogin h5 {
+  color: #fff;
+}
+
+#aruba-prelogin p.small {
+  margin-top: 2rem !important;
+}
+
+@media screen and (min-width: 992px) {
+	#aruba-prelogin .masthead-img img {
+		width: 85% !important;
+		max-width: 470px;
+	}
+}
+
+#aruba-prelogin .masthead-img img {
+  width: 100%;
+}
+
+#aruba-prelogin img {
+  width: 100%;
+}
+
+/* Buttons */
+div.main-btn {
+	display: inline-block;
+  background-color: #ff8300;
+  color: #fff;
+  font-weight: 500;
+  border-radius: 100px;
+  padding: 1rem 2rem 1rem 2rem;
+	line-height: 1.2em;
+	font-family: 'Open Sans Bold';
+	text-align: center;
+}
+
+div.main-btn a {
+  color: #fff;
+}
+
+div.main-btn:hover {
+  background-color: #ff4c00;
+  color: #fff;
+  text-decoration: none;
+}
+
+a.main-btn {
+  background-color: #ff8300;
+  color: #fff;
+  font-weight: 500;
+  border-radius: 100px;
+  padding: 1rem 2rem 1rem 2rem;
+	line-height: 1.2em;
+	font-family: 'Open Sans Bold';
+}
+a.main-btn:hover {
+  background-color: #ff4c00;
+  color: #fff;
+  text-decoration: none;
+}
+
+input[type="submit"] {
+	border: 0 !important;
+}
+
+input.main-btn, input.main-btn:focus {
+  background-color: #ff8300;
+  color: #fff;
+  font-weight: 500;
+  border-radius: 100px;
+  padding: 1rem 2rem 1rem 2rem;
+	line-height: 1.4em;
+	font-family: 'Open Sans Bold';
+}
+input.main-btn:hover {
+  background-color: #ff4c00;
+  color: #fff;
+  text-decoration: none;
+}
+
+
+
+
+
+
+/* Header Section */
+#aruba-prelogin section.header {
+  background-image: url('../images/header-bg.png');
+  background-size: cover;
+  padding: 2rem;
+  margin-bottom: 3rem;
+  background-position: center;
+	margin-top: 60px;
+}
+
+@media screen and (max-width: 960px) {
+	#aruba-prelogin section.header {
+		margin-top: 54px;
+	}
+}
+
+#aruba-prelogin section.header .logo-subTitle {
+  font-size: 37px;
+  color: #fff;
+  font-weight: 200;
+  margin-bottom: 2rem;
+}
+#aruba-prelogin section.header .left-content {
+  padding: 0;
+}
+/* Register Section */
+#aruba-prelogin section.register {
+  margin-bottom: 3rem;
+}
+#aruba-prelogin section.register .right-content {
+  padding: 0 0rem 0rem 3rem;
+}
+#aruba-prelogin section.register .right-content p, #aruba-prelogin section.register .right-content h2 {
+  color: #000;
+  margin: 0 0 2rem 0;
+}
+/* Benefits Section */
+#aruba-prelogin section.benefits {
+  margin-bottom: 3rem;
+  color: #000;
+}
+#aruba-prelogin section.benefits h2 {
+  color: #000;
+  font-size: 42px;
+  font-weight: 600;
+  padding: 2rem 5rem 2rem 5rem;
+}
+#aruba-prelogin section.benefits p {
+  color: #000;
+}
+#aruba-prelogin section.benefits .benefits {
+  display: flex;
+  flex-wrap: wrap;
+}
+#aruba-prelogin section.benefits .benefits-item {
+  padding: 1rem;
+}
+#aruba-prelogin section.benefits .benefits-item img {
+  width: auto;
+}
+#aruba-prelogin section.benefits .benefits h3 {
+  color: #000;
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+/* Footer Section */
+#aruba-prelogin section.footer {
+  background-image: url('../images/footer-bg.png');
+  background-size: cover;
+  padding: 4rem 2rem 4rem 2rem;
+  margin-bottom: 3rem;
+}
+#aruba-prelogin section.footer h2 {
+  font-weight: 700;
+}
+/* Terms Section */
+#aruba-prelogin section.terms {
+  margin-bottom: 3rem;
+}
+#aruba-prelogin section.terms h4 {
+  color: #000;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 1200px) {
+	#aruba-prelogin section.register .right-content {
+		padding: 0rem 2rem;
+	} 
+}
+
+@media screen and (max-width: 992px) {
+	#aruba-prelogin section.register .left-content {
+		padding: 2em 1rem 2em;
+	} 
+	
+	#aruba-prelogin section.register {
+	  margin-bottom: 6rem;
+	}
+	
+}
+
+/* Responsive Styles*/
+/*Tablets*/
+@media screen and (max-width: 768px) {
+  #aruba-prelogin section.register .right-content {
+    padding: 0rem 1rem;
+  }
+  #aruba-prelogin section.benefits h2 {
+    padding: 1rem;
+  }
+  /* Signup btn */
+  /*#aruba-prelogin a.main-btn {
+    font-size: 0.565rem;
+  }*/
+	
+	#aruba-prelogin section.benefits .benefits {
+	  display: block;
+	  flex-wrap: wrap;
+	}
+	
+}
+/*Mobile*/
+@media screen and (max-width: 576px) {
+	
+#aruba-prelogin section.register .right-content {
+    padding: 0rem 3rem;
+  }
+	
+  #aruba-prelogin section.benefits h2 {
+    padding: 0;
+  }
+  /* Signup btn */
+  /*#aruba-prelogin a.main-btn {
+    font-size: 0.565rem !important;
+  }*/
+	
+
+}
+
+
+
+/*---------- ABOUT PAGE -------*/
+.about-col {
+	padding: 1em;
+}
+.about-col img {
+	width: 70px;
+}
+.about-col h3 {
+	font-size: 22px;
+	margin-top: 1em;
+}
+

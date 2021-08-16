@@ -1,0 +1,105 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+i.icon_profile {
+	content: url("../images/icons/icon_profile.svg");
+}
+
+i.icon_improve {
+	content: url("../images/icons/icon_improve.svg");
+}
+
+i.icon_support {
+	content: url("../images/icons/icon_support.svg");
+}
+
+i.icon_bell {
+	content: url("../images/icons/icon_bell.svg");
+}
+
+i.icon_cart {
+	content: url("../images/icons/icon_cart.svg");
+}
+
+i.icon_earn {
+	content: url("../images/icons/icon_earn.svg");
+}
+
+i.icon_camera {
+  content: url("../images/icons/icon_camera.svg");
+}
+
+i.icon_rewards {
+	content: url("../images/icons/icon_rewards.svg");
+}
+
+i.icon_delete {
+	content: url("../images/icons/icon_delete.svg");
+}
+
+
+i.icon_calendar {
+	content: url("../images/icons/icon_calendar.svg");
+}
+
+i.icon_file {
+	content: url("../images/icons/icon_file.svg");
+}
+
+i.icon_ppt {
+	content: url("../images/icons/icon_ppt.svg");
+}
+
+i.icon_video {
+	content: url("../images/icons/icon_video.svg");
+}
+
+i.icon_check_notstarted {
+	content: url("../images/icons/icon_check_notstarted.svg");
+}
+
+i.icon_check_completed {
+	content: url("../images/icons/icon_check_completed.svg");
+}
+
+i.icon_like {
+	content: url("../images/icons/icon_like.svg");
+}
+
+i.icon_liked {
+	content: url("../images/icons/icon_liked.svg");
+}
+
+i.icon_logout {
+	content: url("../images/icons/icon_logout.png");
+}
+
+
+i.icon_edit {
+	content: url("../images/icons/icon_edit.svg");
+}
+
+i.icon_zippedfile {
+	content: url("../images/icons/icon_zippedfile.svg");
+}
+
+i.icon_clock {
+	content: url("../images/icons/icon_clock.svg");
+}
+
+i.icon_cross {
+	content: url("../images/icons/icon_cross.svg");
+}
+
+i.icon_tick {
+	content: url("../images/icons/icon_check_completed.svg");
+}
+
+
+
+
+
+
+
+
